@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.abt-img{
+   
+    transform-style:preserve-3d;
+    transform-origin: right;
+    width: 500px;
+    height: 500px;
+    /* perspective: 2000px; */
+}
+.c{
+ 
+    flex-basis: 20%;
+    /* box-shadow: 5px 6px 7px grey; */
+    transform: rotateX(0deg);
+    transition: transform 1s;
+}
+.c1:hover{
+    transform: rotateX(0deg) rotateY(60deg) translateZ(400px);
+}
